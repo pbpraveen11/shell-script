@@ -1,4 +1,4 @@
-#declearing of variable
+#declearing of variables and giving values from outside
 PERSON1=$1
 PERSON2=$2
 

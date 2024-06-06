@@ -5,7 +5,7 @@ Movies=("RRR" "DJ Tillu" "Manam" "VakeelSaab")
 
 #list always starts with 0
 
-echo "First movie name is: ${Movie[0]}"
-echo "Second movie name is: ${Movie[1]}"
-echo "Third movie name is: ${Movie[2]}"
-echo "All movie names are : ${Movie[@]}"
+echo "First movie name is: ${Movies[0]}"
+echo "Second movie name is: ${Movies[1]}"
+echo "Third movie name is: ${Movies[2]}"
+echo "All movie names are : ${Movies[@]}"

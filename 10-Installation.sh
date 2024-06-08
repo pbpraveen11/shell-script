@@ -9,3 +9,8 @@ then
 else
     echo "You are a super user"
 fi
+
+
+dnf install mysql -y
+
+echo "is scripting still running"

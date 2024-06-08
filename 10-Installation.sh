@@ -11,7 +11,7 @@ else
     echo "You are a super user"
 fi
 
-dnf install mysql -y
+dnf install mysqll -y
 if [ $? -ne 0]
 then
     echo "Installation of Mysql...FAILURE"
@@ -20,7 +20,7 @@ else
     echo "Installation of Mysql...SUCCESS"
 fi
 
-dnf install git -y
+dnf install gituy -y
 if [ $? -ne 0]
 then
     echo "Installation of git...FAILURE"

@@ -23,7 +23,7 @@ do
     dnf list installed $i &>>$LOGFILE
     if [ $i -eq 0 ]
     then
-        echo -e "$i Packed already installed ...$Y SKIPPING $N"
+        echo "$i Packed already installed ...$Y SKIPPING $N"
     else
         echo "$i not installed...Need to Install"
     fi 

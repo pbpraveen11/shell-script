@@ -9,6 +9,7 @@ echo "Script started executing at: $TIMESTAMP"
 
 R="\e[31m"
 G="\e[32m"
+Y="\e[33m"
 N="\e[0m"
 
 VALIDATE (){
